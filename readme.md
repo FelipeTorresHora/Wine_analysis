@@ -1,47 +1,48 @@
-# Previsão de Qualidade de Vinho Tinto e Análise de Exportações
+# Atlas da vitivinicultura brasileira
 
-Bem-vindo ao repositório do projeto **Previsão de Qualidade de Vinho Tinto e Análise de Exportações**! Este projeto combina aprendizado de máquina para prever a qualidade de vinhos tintos com base em características físico-químicas e análise exploratória de dados sobre produção e exportação de vinhos e espumantes.
+Página única sobre o vinho que o Brasil bebe, de 1970 a 2024: de onde vem, para onde vai e o que o país passou a produzir. O texto e os gráficos ficam em `web/` e leem um JSON já agregado.
 
-## Descrição do Projeto
+## De onde vêm os dados
 
-O projeto é dividido em duas partes principais:
+A fonte é a Embrapa Uva e Vinho. Os arquivos estão em `data/`.
 
-1. **Previsão de Qualidade do Vinho Tinto**:
-   - Utiliza o conjunto de dados `winequality-red.csv` para treinar um modelo de aprendizado de máquina (Gradient Boosting Classifier) que categoriza a qualidade do vinho em "baixa", "média" ou "alta".
-   - Inclui um dashboard interativo em Streamlit para inserir características do vinho e prever sua qualidade.
+| Arquivo | O que entra no JSON |
+|---|---|
+| `ImpVinhosMesa.csv`, `ExpVinhoMesa.csv` | Vinho de mesa, importação e exportação. Separador tab. Cada ano aparece duas vezes: a primeira coluna é kg, a segunda é US$. |
+| `ImpEspumantes.csv`, `ExpEspumantes.csv` | O mesmo par, para espumante. |
+| `Producao.csv` | Litros por família. Separador `;`. Em 2024 o ponto é separador de milhar. Entram só os totais de mesa, fino, suco e a soma dos espumantes. |
+| `Comercio.csv` | Comércio interno, separador `;`. O script precisa abri-lo. O conteúdo não entra no JSON. |
 
-2. **Análise Exploratória de Dados (EDA)**:
-   - Explora correlações entre variáveis físico-químicas e a qualidade do vinho usando visualizações como mapas de calor, histogramas, box plots e gráficos de dispersão.
-   - Analisa dados de exportação de vinhos e espumantes (`exportacao_vinho_ready.csv`, `exportacao_espumante_ready.csv`) e produção (`producao_ready.csv`), gerando gráficos para entender tendências e relações.
+`WineQT.csv` fica em `data/` e não entra nesta página. O laboratório de qualidade usa outro conjunto e não é vinho brasileiro.
 
-## Estrutura do Repositório
+## Gerar o JSON
 
-- **`train_model.py`**: Script para carregar os dados, treinar o modelo de Gradient Boosting e salvar o modelo treinado em `model.pkl`.
-- **`app.py`**: Código do dashboard em Streamlit para prever a qualidade do vinho com base em entradas do usuário.
-- **`eda_exportacao.ipynb`**: Notebook Jupyter com análise exploratória de dados de exportação e produção de vinhos e espumantes.
-- **`eda_winequality.ipynb`**: Notebook Jupyter com análise exploratória do conjunto de dados `winequality-red.csv`.
-- **`model.pkl`**: Modelo treinado salvo em formato pickle.
-- **`winequality-red.csv`**: Conjunto de dados usado para treinar o modelo (disponível publicamente).
-- **`exportacao_vinho_ready.csv`, `exportacao_espumante_ready.csv`, `producao_ready.csv`**: Datasets usados na análise de exportação e produção (inclua-os se forem públicos ou forneça instruções para obtê-los).
+Na raiz do repositório, com Python 3, sem dependências além da biblioteca padrão:
 
-## Pré-requisitos
+```bash
+python scripts/build_atlas.py
+```
 
-Para executar este projeto, você precisará das seguintes dependências:
+O script lê `data/` e grava `web/public/atlas.json`. O arquivo traz `meta`, `destaques`, `comercio`, `producao` e `preco`. Quantidade e valor ficam em campos separados. O preço é US$ por quilograma, `usd / kg`, e só entra quando há quilogramas.
 
-- Python 3.11 ou superior
-- Bibliotecas Python:
+Para conferir os totais de 2024 e os litros de 1970 e 2024:
 
-pandas
-numpy
-scikit-learn
-streamlit
-seaborn
-matplotlib
-pickle
+```bash
+python -m unittest tests/test_build_atlas.py
+```
 
-### Instalação
+## Abrir a página
 
-1. Clone o repositório:
- ```bash
- git clone https://github.com/seu-usuario/nome-do-repositorio.git
- cd nome-do-repositorio
+```bash
+cd web
+npm install
+npm run dev
+```
+
+A página abre em `http://127.0.0.1:5173`.
+
+`npm run build` gera a versão estática em `web/dist`. `npm run preview` serve essa versão em `http://127.0.0.1:4173`.
+
+## app_streamlit/
+
+A pasta `streamlit/` passou a se chamar `app_streamlit/`, para não encobrir a biblioteca Streamlit. Ela está vazia: os arquivos são só marcação, não entram nesta versão e a página não os serve.

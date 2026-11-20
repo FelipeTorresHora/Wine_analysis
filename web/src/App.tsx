@@ -1,3 +1,5 @@
+import { ClosingGrid } from './components/ClosingGrid'
+import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
 import { Index } from './components/Index'
 import { Nav } from './components/Nav'
@@ -10,11 +12,11 @@ import { Preco } from './sections/Preco'
 import { Metodo } from './sections/Metodo'
 
 export function App() {
-  const { activeId, indexVisible, navOnPaper } = useShellScroll()
+  const { activeId, indexVisible, navTone } = useShellScroll()
 
   return (
     <>
-      <Nav activeId={activeId} onPaper={navOnPaper} />
+      <Nav activeId={activeId} tone={navTone} />
       <div id="faixa-escura">
         <Hero />
         <NumberBand />
@@ -29,6 +31,8 @@ export function App() {
           <Metodo />
         </article>
       </main>
+      <ClosingGrid />
+      <Footer />
     </>
   )
 }
