@@ -3,11 +3,11 @@ import { Index } from './components/Index'
 import { Nav } from './components/Nav'
 import { NumberBand } from './components/NumberBand'
 import { useShellScroll } from './lib/useShellScroll'
-import { Section01 } from './sections/Section01'
-import { Section02 } from './sections/Section02'
-import { Section03 } from './sections/Section03'
-import { Section04 } from './sections/Section04'
-import { Section05 } from './sections/Section05'
+import { Desequilibrio } from './sections/Desequilibrio'
+import { Parceiros } from './sections/Parceiros'
+import { Producao } from './sections/Producao'
+import { Preco } from './sections/Preco'
+import { Metodo } from './sections/Metodo'
 
 export function App() {
   const { activeId, indexVisible, navOnPaper } = useShellScroll()
@@ -22,11 +22,11 @@ export function App() {
       <Index activeId={activeId} visible={indexVisible} />
       <main id="artigo">
         <article className="article">
-          <Section01 />
-          <Section02 />
-          <Section03 />
-          <Section04 />
-          <Section05 />
+          <Desequilibrio />
+          <Parceiros />
+          <Producao />
+          <Preco />
+          <Metodo />
         </article>
       </main>
     </>

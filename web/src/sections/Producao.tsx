@@ -1,6 +1,6 @@
 import { SectionFrame } from './SectionFrame'
 import { sectionById } from './manifest'
 
-export function Section03() {
+export function Producao() {
   return <SectionFrame meta={sectionById('producao')} />
 }
