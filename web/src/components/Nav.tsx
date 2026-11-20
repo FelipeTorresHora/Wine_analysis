@@ -1,16 +1,19 @@
 import { Button } from './Button'
+import type { NavTone } from '../lib/useShellScroll'
 import { sections } from '../sections/manifest'
 
 type Props = {
   activeId: string | null
-  onPaper: boolean
+  tone: NavTone
 }
 
 const dadosHref = `${import.meta.env.BASE_URL}atlas.json`
 
-export function Nav({ activeId, onPaper }: Props) {
+export function Nav({ activeId, tone }: Props) {
+  const barClass = tone === 'hero' ? 'nav-bar' : `nav-bar is-${tone}`
+
   return (
-    <header id="navegacao" className={onPaper ? 'nav-bar is-paper' : 'nav-bar'}>
+    <header id="navegacao" className={barClass}>
       <a className="brand" href="#topo">
         <span className="brand-mark">Atlas</span>
         <span className="brand-sub">do vinho</span>
@@ -41,7 +44,7 @@ export function Nav({ activeId, onPaper }: Props) {
         </ul>
       </nav>
       <div className="nav-actions">
-        <Button href={dadosHref} variant={onPaper ? 'outline' : 'outline-light'}>
+        <Button href={dadosHref} variant={tone === 'paper' ? 'outline' : 'outline-light'}>
           Dados
         </Button>
         <Button href="#desequilibrio" variant="solid">
