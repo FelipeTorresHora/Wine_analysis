@@ -56,7 +56,8 @@
       2021,
       2022,
       2023,
-      2024
+      2024,
+      2025
     ],
     "unidades": {
       "kg": "kg",
@@ -68,28 +69,29 @@
   "destaques": [
     {
       "id": "chile",
-      "valor": "48%",
-      "frase": "do vinho de mesa importado em 2024 veio do Chile.",
-      "ano": 2024,
-      "kg": 73111416,
-      "kg_total": 153122230,
-      "participacao": 0.4775
+      "valor": "49%",
+      "frase": "do vinho de mesa importado em 2025 veio do Chile.",
+      "ano": 2025,
+      "kg": 77996609,
+      "kg_total": 158532688,
+      "participacao": 0.492
     },
     {
       "id": "preco",
-      "valor": "US$ 1,64",
-      "frase": "o quilo que o Brasil vendeu, contra US$ 3,14 o quilo que comprou.",
-      "ano": 2024,
-      "exportado_usd_por_kg": 1.6436,
-      "importado_usd_por_kg": 3.1418
+      "valor": "US$ 1,66",
+      "frase": "o quilo que o Brasil vendeu, contra US$ 3,25 o quilo que comprou.",
+      "ano": 2025,
+      "exportado_usd_por_kg": 1.6582,
+      "importado_usd_por_kg": 3.2473
     },
     {
       "id": "mesa",
-      "valor": "−53%",
+      "valor": "−14%",
       "frase": "a produção de vinho de mesa desde 1970, enquanto o suco de uva multiplicou.",
+      "ano": 2025,
       "litros_1970": 217208604,
-      "litros_2024": 102631280,
-      "variacao": -0.5275
+      "litros_2025": 187156862,
+      "variacao": -0.1384
     }
   ],
   "comercio": [
@@ -1177,7 +1179,7 @@
       "ano": 2000,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 32000,
       "usd": 60800
     },
@@ -1265,7 +1267,7 @@
       "ano": 2001,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 7920,
       "usd": 12000
     },
@@ -1337,7 +1339,7 @@
       "ano": 2002,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 39960,
       "usd": 41900
     },
@@ -1409,7 +1411,7 @@
       "ano": 2003,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 47840,
       "usd": 63800
     },
@@ -1497,7 +1499,7 @@
       "ano": 2004,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 356,
       "usd": 980
     },
@@ -1617,7 +1619,7 @@
       "ano": 2005,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 539,
       "usd": 182
     },
@@ -1745,17 +1747,17 @@
       "ano": 2006,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "kg": 3375,
-      "usd": 18128
+      "pais": "Bolívia",
+      "kg": 1989,
+      "usd": 5940
     },
     {
       "ano": 2006,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "kg": 1989,
-      "usd": 5940
+      "pais": "Bélgica",
+      "kg": 3375,
+      "usd": 18128
     },
     {
       "ano": 2006,
@@ -1881,17 +1883,17 @@
       "ano": 2007,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "kg": 540,
-      "usd": 2304
+      "pais": "Bolívia",
+      "kg": 1537,
+      "usd": 5865
     },
     {
       "ano": 2007,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "kg": 1537,
-      "usd": 5865
+      "pais": "Bélgica",
+      "kg": 540,
+      "usd": 2304
     },
     {
       "ano": 2007,
@@ -2041,17 +2043,17 @@
       "ano": 2008,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "kg": 112,
-      "usd": 682
+      "pais": "Bolívia",
+      "kg": 587,
+      "usd": 2048
     },
     {
       "ano": 2008,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "kg": 587,
-      "usd": 2048
+      "pais": "Bélgica",
+      "kg": 112,
+      "usd": 682
     },
     {
       "ano": 2008,
@@ -2337,17 +2339,17 @@
       "ano": 2010,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "kg": 12897,
-      "usd": 49742
+      "pais": "Bolívia",
+      "kg": 11960,
+      "usd": 5553
     },
     {
       "ano": 2010,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "kg": 11960,
-      "usd": 5553
+      "pais": "Bélgica",
+      "kg": 12897,
+      "usd": 49742
     },
     {
       "ano": 2010,
@@ -2377,7 +2379,7 @@
       "ano": 2010,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 198,
       "usd": 804
     },
@@ -2393,7 +2395,7 @@
       "ano": 2010,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Estonia",
+      "pais": "Estônia",
       "kg": 495,
       "usd": 1860
     },
@@ -2585,7 +2587,7 @@
       "ano": 2011,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 90,
       "usd": 1068
     },
@@ -2609,7 +2611,7 @@
       "ano": 2011,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 190,
       "usd": 590
     },
@@ -2633,7 +2635,7 @@
       "ano": 2011,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Filânldia",
+      "pais": "Finlândia",
       "kg": 1287,
       "usd": 6359
     },
@@ -2801,7 +2803,7 @@
       "ano": 2012,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
+      "pais": "Bélgica",
       "kg": 7404,
       "usd": 40086
     },
@@ -2857,7 +2859,7 @@
       "ano": 2012,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Estonia",
+      "pais": "Estônia",
       "kg": 369,
       "usd": 1882
     },
@@ -2865,7 +2867,7 @@
       "ano": 2012,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Filânldia",
+      "pais": "Finlândia",
       "kg": 378,
       "usd": 4084
     },
@@ -3025,7 +3027,7 @@
       "ano": 2013,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
+      "pais": "Bélgica",
       "kg": 1100,
       "usd": 6078
     },
@@ -3049,7 +3051,7 @@
       "ano": 2013,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 22,
       "usd": 196
     },
@@ -3081,7 +3083,7 @@
       "ano": 2013,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Filânldia",
+      "pais": "Finlândia",
       "kg": 693,
       "usd": 9556
     },
@@ -3257,17 +3259,17 @@
       "ano": 2014,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "kg": 104153,
-      "usd": 499164
+      "pais": "Bolívia",
+      "kg": 9,
+      "usd": 250
     },
     {
       "ano": 2014,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "kg": 9,
-      "usd": 250
+      "pais": "Bélgica",
+      "kg": 104153,
+      "usd": 499164
     },
     {
       "ano": 2014,
@@ -3489,17 +3491,17 @@
       "ano": 2015,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "kg": 900,
-      "usd": 5280
+      "pais": "Bolívia",
+      "kg": 2418,
+      "usd": 11355
     },
     {
       "ano": 2015,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "kg": 2418,
-      "usd": 11355
+      "pais": "Bélgica",
+      "kg": 900,
+      "usd": 5280
     },
     {
       "ano": 2015,
@@ -3721,7 +3723,7 @@
       "ano": 2016,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 617,
       "usd": 1532
     },
@@ -3753,7 +3755,7 @@
       "ano": 2016,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Filânldia",
+      "pais": "Finlândia",
       "kg": 7522,
       "usd": 35948
     },
@@ -3889,17 +3891,17 @@
       "ano": 2017,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "kg": 450,
-      "usd": 2646
+      "pais": "Bolívia",
+      "kg": 1668,
+      "usd": 21056
     },
     {
       "ano": 2017,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "kg": 1668,
-      "usd": 21056
+      "pais": "Bélgica",
+      "kg": 450,
+      "usd": 2646
     },
     {
       "ano": 2017,
@@ -3929,7 +3931,7 @@
       "ano": 2017,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 595,
       "usd": 2600
     },
@@ -4145,17 +4147,17 @@
       "ano": 2018,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "kg": 1800,
-      "usd": 10555
+      "pais": "Bolívia",
+      "kg": 5891,
+      "usd": 25277
     },
     {
       "ano": 2018,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "kg": 5891,
-      "usd": 25277
+      "pais": "Bélgica",
+      "kg": 1800,
+      "usd": 10555
     },
     {
       "ano": 2018,
@@ -4201,7 +4203,7 @@
       "ano": 2018,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 2309,
       "usd": 8637
     },
@@ -4497,7 +4499,7 @@
       "ano": 2019,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
+      "pais": "Bélgica",
       "kg": 1869,
       "usd": 11405
     },
@@ -4561,7 +4563,7 @@
       "ano": 2019,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 804,
       "usd": 2185
     },
@@ -4593,7 +4595,7 @@
       "ano": 2019,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 33,
       "usd": 164
     },
@@ -5009,7 +5011,7 @@
       "ano": 2020,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 24578,
       "usd": 74854
     },
@@ -5041,7 +5043,7 @@
       "ano": 2020,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 9,
       "usd": 36
     },
@@ -5065,7 +5067,7 @@
       "ano": 2020,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Filânldia",
+      "pais": "Finlândia",
       "kg": 1078,
       "usd": 7065
     },
@@ -5417,7 +5419,7 @@
       "ano": 2021,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 10280,
       "usd": 37207
     },
@@ -5457,7 +5459,7 @@
       "ano": 2021,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 90,
       "usd": 3240
     },
@@ -5793,7 +5795,7 @@
       "ano": 2022,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 15396,
       "usd": 56227
     },
@@ -6225,7 +6227,7 @@
       "ano": 2023,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 1926,
       "usd": 6898
     },
@@ -6257,7 +6259,7 @@
       "ano": 2023,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 126,
       "usd": 622
     },
@@ -6297,7 +6299,7 @@
       "ano": 2023,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Filânldia",
+      "pais": "Finlândia",
       "kg": 180,
       "usd": 1770
     },
@@ -6545,6 +6547,14 @@
       "ano": 2024,
       "fluxo": "exportacao",
       "produto": "espumante",
+      "pais": "Angola",
+      "kg": 11640,
+      "usd": 75036
+    },
+    {
+      "ano": 2024,
+      "fluxo": "exportacao",
+      "produto": "espumante",
       "pais": "Antigua e Barbuda",
       "kg": 23,
       "usd": 100
@@ -6577,7 +6587,7 @@
       "ano": 2024,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
+      "pais": "Bélgica",
       "kg": 46,
       "usd": 297
     },
@@ -6625,7 +6635,7 @@
       "ano": 2024,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "kg": 1080,
       "usd": 4018
     },
@@ -6785,14 +6795,6 @@
       "ano": 2024,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Marrocos",
-      "kg": 11640,
-      "usd": 75036
-    },
-    {
-      "ano": 2024,
-      "fluxo": "exportacao",
-      "produto": "espumante",
       "pais": "Marshall, Ilhas",
       "kg": 1056,
       "usd": 4625
@@ -6924,6 +6926,462 @@
       "pais": "África do Sul",
       "kg": 78,
       "usd": 1353
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Alemanha",
+      "kg": 130,
+      "usd": 321
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Angola",
+      "kg": 22795,
+      "usd": 149907
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Antigua e Barbuda",
+      "kg": 4,
+      "usd": 42
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Argentina",
+      "kg": 34799,
+      "usd": 115111
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Azerbaijão",
+      "kg": 27001,
+      "usd": 81677
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Bahamas",
+      "kg": 90,
+      "usd": 732
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Barbados",
+      "kg": 20,
+      "usd": 87
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Bolívia",
+      "kg": 2239,
+      "usd": 7998
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Bulgária",
+      "kg": 122,
+      "usd": 557
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Bélgica",
+      "kg": 10,
+      "usd": 4508
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Cabo Verde",
+      "kg": 16,
+      "usd": 61
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Canada",
+      "kg": 23,
+      "usd": 176
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Cayman, Ilhas",
+      "kg": 33,
+      "usd": 198
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Chile",
+      "kg": 1777,
+      "usd": 8447
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "China",
+      "kg": 7959,
+      "usd": 29473
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Chipre",
+      "kg": 79,
+      "usd": 363
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Congo, República Democrática",
+      "kg": 356,
+      "usd": 1020
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Cook, Ilhas",
+      "kg": 3,
+      "usd": 18
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Coreia do Sul",
+      "kg": 109,
+      "usd": 227
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Curaçao",
+      "kg": 4495,
+      "usd": 18605
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Emirados Árabes Unidos",
+      "kg": 14085,
+      "usd": 44250
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Espanha",
+      "kg": 360,
+      "usd": 4933
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Estados Unidos",
+      "kg": 99000,
+      "usd": 352535
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Filipinas",
+      "kg": 4009,
+      "usd": 18340
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "França",
+      "kg": 622,
+      "usd": 4028
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Gana",
+      "kg": 840,
+      "usd": 4516
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Grécia",
+      "kg": 115,
+      "usd": 675
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Haiti",
+      "kg": 3362,
+      "usd": 10352
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Hong Kong",
+      "kg": 780,
+      "usd": 4319
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Itália",
+      "kg": 2385,
+      "usd": 29580
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Japão",
+      "kg": 3551,
+      "usd": 15115
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Letônia",
+      "kg": 172089,
+      "usd": 635706
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Libéria",
+      "kg": 1519,
+      "usd": 7944
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Maldivas",
+      "kg": 2936,
+      "usd": 13882
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Malta",
+      "kg": 243,
+      "usd": 1522
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Marshall, Ilhas",
+      "kg": 558,
+      "usd": 2178
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "México",
+      "kg": 495,
+      "usd": 2064
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Nigéria",
+      "kg": 24300,
+      "usd": 86535
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Noruega",
+      "kg": 98,
+      "usd": 760
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Nova Zelândia",
+      "kg": 45,
+      "usd": 323
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Panamá",
+      "kg": 277,
+      "usd": 1599
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Paraguai",
+      "kg": 75770,
+      "usd": 280537
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Países Baixos (Holanda)",
+      "kg": 5251,
+      "usd": 29252
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Peru",
+      "kg": 528,
+      "usd": 4421
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Porto Rico",
+      "kg": 2205,
+      "usd": 33324
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Portugal",
+      "kg": 24,
+      "usd": 156
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Reino Unido",
+      "kg": 11253,
+      "usd": 61508
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Rússia",
+      "kg": 20919,
+      "usd": 62905
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Serra Leoa",
+      "kg": 338,
+      "usd": 1720
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Singapura",
+      "kg": 186,
+      "usd": 1423
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Suécia",
+      "kg": 97200,
+      "usd": 285895
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Suíça",
+      "kg": 396,
+      "usd": 4646
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Taiwan (Formosa)",
+      "kg": 4,
+      "usd": 29
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Togo",
+      "kg": 981,
+      "usd": 4824
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Uruguai",
+      "kg": 34273,
+      "usd": 129447
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Venezuela",
+      "kg": 1,
+      "usd": 30
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "África do Sul",
+      "kg": 2,
+      "usd": 51
     },
     {
       "ano": 1970,
@@ -10929,7 +11387,7 @@
       "ano": 2006,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 363,
       "usd": 1446
     },
@@ -11529,7 +11987,7 @@
       "ano": 2008,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 2437,
       "usd": 12298
     },
@@ -11857,7 +12315,7 @@
       "ano": 2009,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 1398,
       "usd": 4032
     },
@@ -12153,7 +12611,7 @@
       "ano": 2010,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 1035,
       "usd": 3206
     },
@@ -12457,7 +12915,7 @@
       "ano": 2011,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 2120,
       "usd": 6594
     },
@@ -12753,7 +13211,7 @@
       "ano": 2012,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 675,
       "usd": 3300
     },
@@ -13369,7 +13827,7 @@
       "ano": 2014,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 640,
       "usd": 3381
     },
@@ -13657,7 +14115,7 @@
       "ano": 2015,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 765,
       "usd": 3740
     },
@@ -13913,7 +14371,7 @@
       "ano": 2016,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 585,
       "usd": 2760
     },
@@ -14185,7 +14643,7 @@
       "ano": 2017,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 675,
       "usd": 3302
     },
@@ -14497,7 +14955,7 @@
       "ano": 2018,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 360,
       "usd": 1762
     },
@@ -14945,7 +15403,7 @@
       "ano": 2019,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 450,
       "usd": 2202
     },
@@ -15497,7 +15955,7 @@
       "ano": 2020,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 581,
       "usd": 2279
     },
@@ -16073,7 +16531,7 @@
       "ano": 2021,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 810,
       "usd": 10522
     },
@@ -16681,7 +17139,7 @@
       "ano": 2022,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 4781,
       "usd": 85465
     },
@@ -17257,7 +17715,7 @@
       "ano": 2023,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 1417,
       "usd": 6762
     },
@@ -17905,7 +18363,7 @@
       "ano": 2024,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "kg": 1688,
       "usd": 8253
     },
@@ -18131,7 +18589,7 @@
       "produto": "mesa",
       "pais": "Panamá",
       "kg": 121432,
-      "usd": 97549
+      "usd": 97569
     },
     {
       "ano": 2024,
@@ -18292,6 +18750,614 @@
       "pais": "África do Sul",
       "kg": 103,
       "usd": 1783
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Alemanha, República Democrática",
+      "kg": 3983,
+      "usd": 24672
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Antígua e Barbuda",
+      "kg": 199,
+      "usd": 792
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Argentina",
+      "kg": 16018,
+      "usd": 76331
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Aruba",
+      "kg": 10,
+      "usd": 50
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Arábia Saudita",
+      "kg": 9,
+      "usd": 13
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Bahamas",
+      "kg": 867,
+      "usd": 5986
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Barbados",
+      "kg": 477,
+      "usd": 418
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Barein",
+      "kg": 180,
+      "usd": 1039
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Belice",
+      "kg": 1,
+      "usd": 94
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Bermudas",
+      "kg": 36,
+      "usd": 115
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Bolívia",
+      "kg": 5820,
+      "usd": 9065
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Brasil",
+      "kg": 1219,
+      "usd": 2554
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Burkina Faso",
+      "kg": 3600,
+      "usd": 6591
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Bélgica",
+      "kg": 413,
+      "usd": 1800
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Cabo Verde",
+      "kg": 1732,
+      "usd": 3194
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Cayman, Ilhas",
+      "kg": 75,
+      "usd": 237
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "China",
+      "kg": 19797,
+      "usd": 139959
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Chipre",
+      "kg": 1390,
+      "usd": 4692
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Colômbia",
+      "kg": 25151,
+      "usd": 43238
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Congo",
+      "kg": 12024,
+      "usd": 20080
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Cook, Ilhas",
+      "kg": 44,
+      "usd": 792
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Coreia do Sul",
+      "kg": 55,
+      "usd": 202
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Coveite (Kuweit)",
+      "kg": 18,
+      "usd": 66
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Cuba",
+      "kg": 180,
+      "usd": 422
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Curaçao",
+      "kg": 18688,
+      "usd": 35433
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Dinamarca",
+      "kg": 11,
+      "usd": 158
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Dominica",
+      "kg": 1332,
+      "usd": 3783
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Emirados Árabes Unidos",
+      "kg": 613,
+      "usd": 13207
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Espanha",
+      "kg": 1004,
+      "usd": 10164
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Estados Unidos",
+      "kg": 360614,
+      "usd": 805160
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Filipinas",
+      "kg": 11585,
+      "usd": 33617
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "França",
+      "kg": 1559,
+      "usd": 9255
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Gana",
+      "kg": 20164,
+      "usd": 38494
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Geórgia",
+      "kg": 1782,
+      "usd": 17598
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Grécia",
+      "kg": 408,
+      "usd": 1221
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Guatemala",
+      "kg": 6781,
+      "usd": 12960
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Guiana",
+      "kg": 202258,
+      "usd": 551716
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Guine Equatorial",
+      "kg": 5265,
+      "usd": 9956
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Haiti",
+      "kg": 779609,
+      "usd": 1272295
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Hong Kong",
+      "kg": 7491,
+      "usd": 35019
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Ilha de Man",
+      "kg": 271,
+      "usd": 1731
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Itália",
+      "kg": 1060,
+      "usd": 5407
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Japão",
+      "kg": 13190,
+      "usd": 31336
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Letônia",
+      "kg": 12725,
+      "usd": 42876
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Libéria",
+      "kg": 18093,
+      "usd": 60450
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Luxemburgo",
+      "kg": 84,
+      "usd": 414
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Líbano",
+      "kg": 19016,
+      "usd": 8825
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Malta",
+      "kg": 2693,
+      "usd": 13263
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Malásia",
+      "kg": 5,
+      "usd": 8
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Marshall, Ilhas",
+      "kg": 7459,
+      "usd": 30950
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "México",
+      "kg": 4646,
+      "usd": 30004
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Noruega",
+      "kg": 1324,
+      "usd": 17869
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Nova Zelândia",
+      "kg": 502,
+      "usd": 3064
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Panamá",
+      "kg": 7732,
+      "usd": 30301
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Paraguai",
+      "kg": 4550344,
+      "usd": 6472664
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Países Baixos",
+      "kg": 409,
+      "usd": 2355
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Peru",
+      "kg": 1232,
+      "usd": 11402
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Portugal",
+      "kg": 3105,
+      "usd": 14804
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Reino Unido",
+      "kg": 56240,
+      "usd": 268626
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Rússia",
+      "kg": 379,
+      "usd": 1822
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Serra Leoa",
+      "kg": 39555,
+      "usd": 73694
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Singapura",
+      "kg": 4106,
+      "usd": 20288
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Suriname",
+      "kg": 13275,
+      "usd": 23586
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Suécia",
+      "kg": 450,
+      "usd": 4637
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Suíça",
+      "kg": 623,
+      "usd": 6073
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Sérvia",
+      "kg": 10800,
+      "usd": 58283
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Tailândia",
+      "kg": 269,
+      "usd": 1604
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Taiwan (Formosa)",
+      "kg": 3026,
+      "usd": 7092
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Tanzânia",
+      "kg": 23,
+      "usd": 122
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Togo",
+      "kg": 31710,
+      "usd": 47877
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Turquia",
+      "kg": 9,
+      "usd": 21
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Uruguai",
+      "kg": 171378,
+      "usd": 276819
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Venezuela",
+      "kg": 52666,
+      "usd": 85576
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Vietnã",
+      "kg": 59,
+      "usd": 75
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Áustria",
+      "kg": 12,
+      "usd": 27
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Índia",
+      "kg": 43,
+      "usd": 55
     },
     {
       "ano": 1970,
@@ -22393,7 +23459,7 @@
       "ano": 2018,
       "fluxo": "importacao",
       "produto": "espumante",
-      "pais": "Canada",
+      "pais": "Canadá",
       "kg": 3852,
       "usd": 109402
     },
@@ -23081,7 +24147,7 @@
       "ano": 2022,
       "fluxo": "importacao",
       "produto": "espumante",
-      "pais": "Canada",
+      "pais": "Canadá",
       "kg": 54,
       "usd": 1017
     },
@@ -23257,7 +24323,7 @@
       "ano": 2023,
       "fluxo": "importacao",
       "produto": "espumante",
-      "pais": "Canada",
+      "pais": "Canadá",
       "kg": 23,
       "usd": 279
     },
@@ -23425,7 +24491,7 @@
       "ano": 2024,
       "fluxo": "importacao",
       "produto": "espumante",
-      "pais": "Canada",
+      "pais": "Canadá",
       "kg": 161,
       "usd": 2038
     },
@@ -23556,6 +24622,214 @@
       "pais": "Uruguai",
       "kg": 2383,
       "usd": 11651
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Africa do Sul",
+      "kg": 10478,
+      "usd": 115113
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Alemanha",
+      "kg": 486,
+      "usd": 5699
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Argentina",
+      "kg": 1119523,
+      "usd": 3631248
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Armênia",
+      "kg": 416,
+      "usd": 602
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Azerbaijão",
+      "kg": 1322,
+      "usd": 1718
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Bermudas",
+      "kg": 1,
+      "usd": 13
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Brasil",
+      "kg": 450,
+      "usd": 4618
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Canadá",
+      "kg": 91,
+      "usd": 1332
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Chile",
+      "kg": 511854,
+      "usd": 1706116
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Eslovênia",
+      "kg": 389,
+      "usd": 3830
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Espanha",
+      "kg": 3042083,
+      "usd": 10097775
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Estados Unidos",
+      "kg": 1,
+      "usd": 10
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "França",
+      "kg": 1404128,
+      "usd": 24629622
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Hungria",
+      "kg": 9900,
+      "usd": 23468
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Israel",
+      "kg": 90,
+      "usd": 1200
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Itália",
+      "kg": 1022949,
+      "usd": 3399253
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Luxemburgo",
+      "kg": 72,
+      "usd": 668
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Moldávia",
+      "kg": 2095,
+      "usd": 4083
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "México",
+      "kg": 2,
+      "usd": 12
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Países Baixos",
+      "kg": 7,
+      "usd": 80
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Portugal",
+      "kg": 59500,
+      "usd": 217742
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Reino Unido",
+      "kg": 734,
+      "usd": 15641
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Romênia",
+      "kg": 764,
+      "usd": 4437
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Ucrânia",
+      "kg": 999,
+      "usd": 1432
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Uruguai",
+      "kg": 4307,
+      "usd": 19406
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Áustria",
+      "kg": 270,
+      "usd": 1694
     },
     {
       "ano": 1970,
@@ -31276,6 +32550,342 @@
       "pais": "Áustria",
       "kg": 17796,
       "usd": 104965
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Africa do Sul",
+      "kg": 561383,
+      "usd": 1809523
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Alemanha",
+      "kg": 165018,
+      "usd": 827422
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Argentina",
+      "kg": 26627759,
+      "usd": 95790527
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Armênia",
+      "kg": 6579,
+      "usd": 9753
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Arábia Saudita",
+      "kg": 1,
+      "usd": 5
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Austrália",
+      "kg": 354227,
+      "usd": 1580409
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Azerbaijão",
+      "kg": 8514,
+      "usd": 12518
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Bolívia",
+      "kg": 4680,
+      "usd": 29040
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Brasil",
+      "kg": 223585,
+      "usd": 422125
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Bulgária",
+      "kg": 37935,
+      "usd": 63824
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Bósnia-Herzegovina",
+      "kg": 2891,
+      "usd": 15677
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Canada",
+      "kg": 461,
+      "usd": 28263
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Chile",
+      "kg": 77996609,
+      "usd": 211351616
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Chipre",
+      "kg": 675,
+      "usd": 3165
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Croácia",
+      "kg": 1305,
+      "usd": 8594
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Eslovênia",
+      "kg": 15384,
+      "usd": 78133
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Espanha",
+      "kg": 6717180,
+      "usd": 21858945
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Estados Unidos",
+      "kg": 277699,
+      "usd": 2361382
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "França",
+      "kg": 5442242,
+      "usd": 39206333
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Geórgia",
+      "kg": 25671,
+      "usd": 49081
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Geórgia do Sul e Sandwich do Sul, Ilhas",
+      "kg": 2349,
+      "usd": 4198
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Grécia",
+      "kg": 37056,
+      "usd": 161265
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Hungria",
+      "kg": 24978,
+      "usd": 209023
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Israel",
+      "kg": 37251,
+      "usd": 251938
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Itália",
+      "kg": 9816553,
+      "usd": 45836505
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Japão",
+      "kg": 265,
+      "usd": 1138
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Luxemburgo",
+      "kg": 54,
+      "usd": 732
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Líbano",
+      "kg": 14958,
+      "usd": 87251
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Macedônia",
+      "kg": 10240,
+      "usd": 17128
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Marrocos",
+      "kg": 945,
+      "usd": 10989
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Moldávia",
+      "kg": 68923,
+      "usd": 138018
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "México",
+      "kg": 4,
+      "usd": 29
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Nova Zelândia",
+      "kg": 90948,
+      "usd": 424117
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Países Baixos (Holanda)",
+      "kg": 6668,
+      "usd": 50193
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Portugal",
+      "kg": 27633546,
+      "usd": 84217490
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Reino Unido",
+      "kg": 295,
+      "usd": 4931
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Romênia",
+      "kg": 39223,
+      "usd": 130210
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Sérvia",
+      "kg": 5785,
+      "usd": 19078
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Síria",
+      "kg": 257,
+      "usd": 509
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Ucrânia",
+      "kg": 5215,
+      "usd": 7993
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Uruguai",
+      "kg": 2234381,
+      "usd": 7526788
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Áustria",
+      "kg": 32996,
+      "usd": 194822
     }
   ],
   "producao": [
@@ -32378,6 +33988,26 @@
       "ano": 2024,
       "familia": "ESPUMANTE",
       "litros": 10598208
+    },
+    {
+      "ano": 2025,
+      "familia": "VINHO DE MESA",
+      "litros": 187156862
+    },
+    {
+      "ano": 2025,
+      "familia": "VINHO FINO DE MESA (VINIFERA)",
+      "litros": 43562468
+    },
+    {
+      "ano": 2025,
+      "familia": "SUCO",
+      "litros": 89355889
+    },
+    {
+      "ano": 2025,
+      "familia": "ESPUMANTE",
+      "litros": 692398
     }
   ],
   "preco": [
@@ -33330,7 +34960,7 @@
       "ano": 2000,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 1.9
     },
     {
@@ -33407,7 +35037,7 @@
       "ano": 2001,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 1.5152
     },
     {
@@ -33470,7 +35100,7 @@
       "ano": 2002,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 1.0485
     },
     {
@@ -33533,7 +35163,7 @@
       "ano": 2003,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 1.3336
     },
     {
@@ -33610,7 +35240,7 @@
       "ano": 2004,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 2.7528
     },
     {
@@ -33715,7 +35345,7 @@
       "ano": 2005,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 0.3377
     },
     {
@@ -33827,15 +35457,15 @@
       "ano": 2006,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "usd_por_kg": 5.3713
+      "pais": "Bolívia",
+      "usd_por_kg": 2.9864
     },
     {
       "ano": 2006,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "usd_por_kg": 2.9864
+      "pais": "Bélgica",
+      "usd_por_kg": 5.3713
     },
     {
       "ano": 2006,
@@ -33946,15 +35576,15 @@
       "ano": 2007,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "usd_por_kg": 4.2667
+      "pais": "Bolívia",
+      "usd_por_kg": 3.8159
     },
     {
       "ano": 2007,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "usd_por_kg": 3.8159
+      "pais": "Bélgica",
+      "usd_por_kg": 4.2667
     },
     {
       "ano": 2007,
@@ -34079,15 +35709,15 @@
       "ano": 2008,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "usd_por_kg": 6.0893
+      "pais": "Bolívia",
+      "usd_por_kg": 3.4889
     },
     {
       "ano": 2008,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "usd_por_kg": 3.4889
+      "pais": "Bélgica",
+      "usd_por_kg": 6.0893
     },
     {
       "ano": 2008,
@@ -34338,15 +35968,15 @@
       "ano": 2010,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "usd_por_kg": 3.8569
+      "pais": "Bolívia",
+      "usd_por_kg": 0.4643
     },
     {
       "ano": 2010,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "usd_por_kg": 0.4643
+      "pais": "Bélgica",
+      "usd_por_kg": 3.8569
     },
     {
       "ano": 2010,
@@ -34373,7 +36003,7 @@
       "ano": 2010,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 4.0606
     },
     {
@@ -34387,7 +36017,7 @@
       "ano": 2010,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Estonia",
+      "pais": "Estônia",
       "usd_por_kg": 3.7576
     },
     {
@@ -34555,7 +36185,7 @@
       "ano": 2011,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 11.8667
     },
     {
@@ -34576,7 +36206,7 @@
       "ano": 2011,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 3.1053
     },
     {
@@ -34597,7 +36227,7 @@
       "ano": 2011,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Filânldia",
+      "pais": "Finlândia",
       "usd_por_kg": 4.9409
     },
     {
@@ -34744,7 +36374,7 @@
       "ano": 2012,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
+      "pais": "Bélgica",
       "usd_por_kg": 5.4141
     },
     {
@@ -34793,14 +36423,14 @@
       "ano": 2012,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Estonia",
+      "pais": "Estônia",
       "usd_por_kg": 5.1003
     },
     {
       "ano": 2012,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Filânldia",
+      "pais": "Finlândia",
       "usd_por_kg": 10.8042
     },
     {
@@ -34940,7 +36570,7 @@
       "ano": 2013,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
+      "pais": "Bélgica",
       "usd_por_kg": 5.5255
     },
     {
@@ -34961,7 +36591,7 @@
       "ano": 2013,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 8.9091
     },
     {
@@ -34989,7 +36619,7 @@
       "ano": 2013,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Filânldia",
+      "pais": "Finlândia",
       "usd_por_kg": 13.7893
     },
     {
@@ -35143,15 +36773,15 @@
       "ano": 2014,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "usd_por_kg": 4.7926
+      "pais": "Bolívia",
+      "usd_por_kg": 27.7778
     },
     {
       "ano": 2014,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "usd_por_kg": 27.7778
+      "pais": "Bélgica",
+      "usd_por_kg": 4.7926
     },
     {
       "ano": 2014,
@@ -35346,15 +36976,15 @@
       "ano": 2015,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "usd_por_kg": 5.8667
+      "pais": "Bolívia",
+      "usd_por_kg": 4.696
     },
     {
       "ano": 2015,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "usd_por_kg": 4.696
+      "pais": "Bélgica",
+      "usd_por_kg": 5.8667
     },
     {
       "ano": 2015,
@@ -35549,7 +37179,7 @@
       "ano": 2016,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 2.483
     },
     {
@@ -35577,7 +37207,7 @@
       "ano": 2016,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Filânldia",
+      "pais": "Finlândia",
       "usd_por_kg": 4.779
     },
     {
@@ -35696,15 +37326,15 @@
       "ano": 2017,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "usd_por_kg": 5.88
+      "pais": "Bolívia",
+      "usd_por_kg": 12.6235
     },
     {
       "ano": 2017,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "usd_por_kg": 12.6235
+      "pais": "Bélgica",
+      "usd_por_kg": 5.88
     },
     {
       "ano": 2017,
@@ -35731,7 +37361,7 @@
       "ano": 2017,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 4.3697
     },
     {
@@ -35920,15 +37550,15 @@
       "ano": 2018,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
-      "usd_por_kg": 5.8639
+      "pais": "Bolívia",
+      "usd_por_kg": 4.2908
     },
     {
       "ano": 2018,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Bolívia",
-      "usd_por_kg": 4.2908
+      "pais": "Bélgica",
+      "usd_por_kg": 5.8639
     },
     {
       "ano": 2018,
@@ -35969,7 +37599,7 @@
       "ano": 2018,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 3.7406
     },
     {
@@ -36228,7 +37858,7 @@
       "ano": 2019,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
+      "pais": "Bélgica",
       "usd_por_kg": 6.1022
     },
     {
@@ -36284,7 +37914,7 @@
       "ano": 2019,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 2.7177
     },
     {
@@ -36312,7 +37942,7 @@
       "ano": 2019,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 4.9697
     },
     {
@@ -36676,7 +38306,7 @@
       "ano": 2020,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 3.0456
     },
     {
@@ -36704,7 +38334,7 @@
       "ano": 2020,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 4.0
     },
     {
@@ -36725,7 +38355,7 @@
       "ano": 2020,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Filânldia",
+      "pais": "Finlândia",
       "usd_por_kg": 6.5538
     },
     {
@@ -37033,7 +38663,7 @@
       "ano": 2021,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 3.6194
     },
     {
@@ -37068,7 +38698,7 @@
       "ano": 2021,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 36.0
     },
     {
@@ -37355,7 +38985,7 @@
       "ano": 2022,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 3.6521
     },
     {
@@ -37733,7 +39363,7 @@
       "ano": 2023,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 3.5815
     },
     {
@@ -37761,7 +39391,7 @@
       "ano": 2023,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 4.9365
     },
     {
@@ -37796,7 +39426,7 @@
       "ano": 2023,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Filânldia",
+      "pais": "Finlândia",
       "usd_por_kg": 9.8333
     },
     {
@@ -38013,6 +39643,13 @@
       "ano": 2024,
       "fluxo": "exportacao",
       "produto": "espumante",
+      "pais": "Angola",
+      "usd_por_kg": 6.4464
+    },
+    {
+      "ano": 2024,
+      "fluxo": "exportacao",
+      "produto": "espumante",
       "pais": "Antigua e Barbuda",
       "usd_por_kg": 4.3478
     },
@@ -38041,7 +39678,7 @@
       "ano": 2024,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Belgica",
+      "pais": "Bélgica",
       "usd_por_kg": 6.4565
     },
     {
@@ -38083,7 +39720,7 @@
       "ano": 2024,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Colombia",
+      "pais": "Colômbia",
       "usd_por_kg": 3.7204
     },
     {
@@ -38223,13 +39860,6 @@
       "ano": 2024,
       "fluxo": "exportacao",
       "produto": "espumante",
-      "pais": "Marrocos",
-      "usd_por_kg": 6.4464
-    },
-    {
-      "ano": 2024,
-      "fluxo": "exportacao",
-      "produto": "espumante",
       "pais": "Marshall, Ilhas",
       "usd_por_kg": 4.3797
     },
@@ -38344,6 +39974,405 @@
       "produto": "espumante",
       "pais": "África do Sul",
       "usd_por_kg": 17.3462
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Alemanha",
+      "usd_por_kg": 2.4692
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Angola",
+      "usd_por_kg": 6.5763
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Antigua e Barbuda",
+      "usd_por_kg": 10.5
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Argentina",
+      "usd_por_kg": 3.3079
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Azerbaijão",
+      "usd_por_kg": 3.025
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Bahamas",
+      "usd_por_kg": 8.1333
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Barbados",
+      "usd_por_kg": 4.35
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Bolívia",
+      "usd_por_kg": 3.5721
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Bulgária",
+      "usd_por_kg": 4.5656
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Bélgica",
+      "usd_por_kg": 450.8
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Cabo Verde",
+      "usd_por_kg": 3.8125
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Canada",
+      "usd_por_kg": 7.6522
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Cayman, Ilhas",
+      "usd_por_kg": 6.0
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Chile",
+      "usd_por_kg": 4.7535
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "China",
+      "usd_por_kg": 3.7031
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Chipre",
+      "usd_por_kg": 4.5949
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Congo, República Democrática",
+      "usd_por_kg": 2.8652
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Cook, Ilhas",
+      "usd_por_kg": 6.0
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Coreia do Sul",
+      "usd_por_kg": 2.0826
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Curaçao",
+      "usd_por_kg": 4.139
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Emirados Árabes Unidos",
+      "usd_por_kg": 3.1416
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Espanha",
+      "usd_por_kg": 13.7028
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Estados Unidos",
+      "usd_por_kg": 3.561
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Filipinas",
+      "usd_por_kg": 4.5747
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "França",
+      "usd_por_kg": 6.4759
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Gana",
+      "usd_por_kg": 5.3762
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Grécia",
+      "usd_por_kg": 5.8696
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Haiti",
+      "usd_por_kg": 3.0791
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Hong Kong",
+      "usd_por_kg": 5.5372
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Itália",
+      "usd_por_kg": 12.4025
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Japão",
+      "usd_por_kg": 4.2565
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Letônia",
+      "usd_por_kg": 3.6941
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Libéria",
+      "usd_por_kg": 5.2298
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Maldivas",
+      "usd_por_kg": 4.7282
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Malta",
+      "usd_por_kg": 6.2634
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Marshall, Ilhas",
+      "usd_por_kg": 3.9032
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "México",
+      "usd_por_kg": 4.1697
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Nigéria",
+      "usd_por_kg": 3.5611
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Noruega",
+      "usd_por_kg": 7.7551
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Nova Zelândia",
+      "usd_por_kg": 7.1778
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Panamá",
+      "usd_por_kg": 5.7726
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Paraguai",
+      "usd_por_kg": 3.7025
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Países Baixos (Holanda)",
+      "usd_por_kg": 5.5707
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Peru",
+      "usd_por_kg": 8.3731
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Porto Rico",
+      "usd_por_kg": 15.1129
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Portugal",
+      "usd_por_kg": 6.5
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Reino Unido",
+      "usd_por_kg": 5.4659
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Rússia",
+      "usd_por_kg": 3.0071
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Serra Leoa",
+      "usd_por_kg": 5.0888
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Singapura",
+      "usd_por_kg": 7.6505
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Suécia",
+      "usd_por_kg": 2.9413
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Suíça",
+      "usd_por_kg": 11.7323
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Taiwan (Formosa)",
+      "usd_por_kg": 7.25
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Togo",
+      "usd_por_kg": 4.9174
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Uruguai",
+      "usd_por_kg": 3.7769
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "Venezuela",
+      "usd_por_kg": 30.0
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "espumante",
+      "pais": "África do Sul",
+      "usd_por_kg": 25.5
     },
     {
       "ano": 1970,
@@ -41849,7 +43878,7 @@
       "ano": 2006,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 3.9835
     },
     {
@@ -42374,7 +44403,7 @@
       "ano": 2008,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 5.0464
     },
     {
@@ -42661,7 +44690,7 @@
       "ano": 2009,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 2.8841
     },
     {
@@ -42920,7 +44949,7 @@
       "ano": 2010,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 3.0976
     },
     {
@@ -43186,7 +45215,7 @@
       "ano": 2011,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 3.1104
     },
     {
@@ -43445,7 +45474,7 @@
       "ano": 2012,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 4.8889
     },
     {
@@ -43984,7 +46013,7 @@
       "ano": 2014,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 5.2828
     },
     {
@@ -44236,7 +46265,7 @@
       "ano": 2015,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 4.8889
     },
     {
@@ -44460,7 +46489,7 @@
       "ano": 2016,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 4.7179
     },
     {
@@ -44698,7 +46727,7 @@
       "ano": 2017,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 4.8919
     },
     {
@@ -44971,7 +47000,7 @@
       "ano": 2018,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 4.8944
     },
     {
@@ -45363,7 +47392,7 @@
       "ano": 2019,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 4.8933
     },
     {
@@ -45839,7 +47868,7 @@
       "ano": 2020,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 3.9225
     },
     {
@@ -46343,7 +48372,7 @@
       "ano": 2021,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 12.9901
     },
     {
@@ -46875,7 +48904,7 @@
       "ano": 2022,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 17.876
     },
     {
@@ -47379,7 +49408,7 @@
       "ano": 2023,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 4.7721
     },
     {
@@ -47946,7 +49975,7 @@
       "ano": 2024,
       "fluxo": "exportacao",
       "produto": "mesa",
-      "pais": "Emirados Arabes Unidos",
+      "pais": "Emirados Árabes Unidos",
       "usd_por_kg": 4.8892
     },
     {
@@ -48143,7 +50172,7 @@
       "fluxo": "exportacao",
       "produto": "mesa",
       "pais": "Panamá",
-      "usd_por_kg": 0.8033
+      "usd_por_kg": 0.8035
     },
     {
       "ano": 2024,
@@ -48284,6 +50313,538 @@
       "produto": "mesa",
       "pais": "África do Sul",
       "usd_por_kg": 17.3107
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Alemanha, República Democrática",
+      "usd_por_kg": 6.1943
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Antígua e Barbuda",
+      "usd_por_kg": 3.9799
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Argentina",
+      "usd_por_kg": 4.7653
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Aruba",
+      "usd_por_kg": 5.0
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Arábia Saudita",
+      "usd_por_kg": 1.4444
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Bahamas",
+      "usd_por_kg": 6.9043
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Barbados",
+      "usd_por_kg": 0.8763
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Barein",
+      "usd_por_kg": 5.7722
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Belice",
+      "usd_por_kg": 94.0
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Bermudas",
+      "usd_por_kg": 3.1944
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Bolívia",
+      "usd_por_kg": 1.5576
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Brasil",
+      "usd_por_kg": 2.0952
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Burkina Faso",
+      "usd_por_kg": 1.8308
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Bélgica",
+      "usd_por_kg": 4.3584
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Cabo Verde",
+      "usd_por_kg": 1.8441
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Cayman, Ilhas",
+      "usd_por_kg": 3.16
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "China",
+      "usd_por_kg": 7.0697
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Chipre",
+      "usd_por_kg": 3.3755
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Colômbia",
+      "usd_por_kg": 1.7191
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Congo",
+      "usd_por_kg": 1.67
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Cook, Ilhas",
+      "usd_por_kg": 18.0
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Coreia do Sul",
+      "usd_por_kg": 3.6727
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Coveite (Kuweit)",
+      "usd_por_kg": 3.6667
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Cuba",
+      "usd_por_kg": 2.3444
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Curaçao",
+      "usd_por_kg": 1.896
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Dinamarca",
+      "usd_por_kg": 14.3636
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Dominica",
+      "usd_por_kg": 2.8401
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Emirados Árabes Unidos",
+      "usd_por_kg": 21.5449
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Espanha",
+      "usd_por_kg": 10.1235
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Estados Unidos",
+      "usd_por_kg": 2.2327
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Filipinas",
+      "usd_por_kg": 2.9018
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "França",
+      "usd_por_kg": 5.9365
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Gana",
+      "usd_por_kg": 1.909
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Geórgia",
+      "usd_por_kg": 9.8754
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Grécia",
+      "usd_por_kg": 2.9926
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Guatemala",
+      "usd_por_kg": 1.9112
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Guiana",
+      "usd_por_kg": 2.7278
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Guine Equatorial",
+      "usd_por_kg": 1.891
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Haiti",
+      "usd_por_kg": 1.632
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Hong Kong",
+      "usd_por_kg": 4.6748
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Ilha de Man",
+      "usd_por_kg": 6.3875
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Itália",
+      "usd_por_kg": 5.1009
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Japão",
+      "usd_por_kg": 2.3757
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Letônia",
+      "usd_por_kg": 3.3694
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Libéria",
+      "usd_por_kg": 3.3411
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Luxemburgo",
+      "usd_por_kg": 4.9286
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Líbano",
+      "usd_por_kg": 0.4641
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Malta",
+      "usd_por_kg": 4.925
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Malásia",
+      "usd_por_kg": 1.6
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Marshall, Ilhas",
+      "usd_por_kg": 4.1493
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "México",
+      "usd_por_kg": 6.458
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Noruega",
+      "usd_por_kg": 13.4962
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Nova Zelândia",
+      "usd_por_kg": 6.1036
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Panamá",
+      "usd_por_kg": 3.9189
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Paraguai",
+      "usd_por_kg": 1.4225
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Países Baixos",
+      "usd_por_kg": 5.7579
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Peru",
+      "usd_por_kg": 9.2549
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Portugal",
+      "usd_por_kg": 4.7678
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Reino Unido",
+      "usd_por_kg": 4.7764
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Rússia",
+      "usd_por_kg": 4.8074
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Serra Leoa",
+      "usd_por_kg": 1.8631
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Singapura",
+      "usd_por_kg": 4.9411
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Suriname",
+      "usd_por_kg": 1.7767
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Suécia",
+      "usd_por_kg": 10.3044
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Suíça",
+      "usd_por_kg": 9.748
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Sérvia",
+      "usd_por_kg": 5.3966
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Tailândia",
+      "usd_por_kg": 5.9628
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Taiwan (Formosa)",
+      "usd_por_kg": 2.3437
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Tanzânia",
+      "usd_por_kg": 5.3043
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Togo",
+      "usd_por_kg": 1.5098
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Turquia",
+      "usd_por_kg": 2.3333
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Uruguai",
+      "usd_por_kg": 1.6153
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Venezuela",
+      "usd_por_kg": 1.6249
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Vietnã",
+      "usd_por_kg": 1.2712
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Áustria",
+      "usd_por_kg": 2.25
+    },
+    {
+      "ano": 2025,
+      "fluxo": "exportacao",
+      "produto": "mesa",
+      "pais": "Índia",
+      "usd_por_kg": 1.2791
     },
     {
       "ano": 1970,
@@ -51873,7 +54434,7 @@
       "ano": 2018,
       "fluxo": "importacao",
       "produto": "espumante",
-      "pais": "Canada",
+      "pais": "Canadá",
       "usd_por_kg": 28.4013
     },
     {
@@ -52475,7 +55036,7 @@
       "ano": 2022,
       "fluxo": "importacao",
       "produto": "espumante",
-      "pais": "Canada",
+      "pais": "Canadá",
       "usd_por_kg": 18.8333
     },
     {
@@ -52629,7 +55190,7 @@
       "ano": 2023,
       "fluxo": "importacao",
       "produto": "espumante",
-      "pais": "Canada",
+      "pais": "Canadá",
       "usd_por_kg": 12.1304
     },
     {
@@ -52769,7 +55330,7 @@
       "ano": 2024,
       "fluxo": "importacao",
       "produto": "espumante",
-      "pais": "Canada",
+      "pais": "Canadá",
       "usd_por_kg": 12.6584
     },
     {
@@ -52883,6 +55444,188 @@
       "produto": "espumante",
       "pais": "Uruguai",
       "usd_por_kg": 4.8892
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Africa do Sul",
+      "usd_por_kg": 10.9862
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Alemanha",
+      "usd_por_kg": 11.7263
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Argentina",
+      "usd_por_kg": 3.2436
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Armênia",
+      "usd_por_kg": 1.4471
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Azerbaijão",
+      "usd_por_kg": 1.2995
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Bermudas",
+      "usd_por_kg": 13.0
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Brasil",
+      "usd_por_kg": 10.2622
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Canadá",
+      "usd_por_kg": 14.6374
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Chile",
+      "usd_por_kg": 3.3332
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Eslovênia",
+      "usd_por_kg": 9.8458
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Espanha",
+      "usd_por_kg": 3.3194
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Estados Unidos",
+      "usd_por_kg": 10.0
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "França",
+      "usd_por_kg": 17.5409
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Hungria",
+      "usd_por_kg": 2.3705
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Israel",
+      "usd_por_kg": 13.3333
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Itália",
+      "usd_por_kg": 3.323
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Luxemburgo",
+      "usd_por_kg": 9.2778
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Moldávia",
+      "usd_por_kg": 1.9489
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "México",
+      "usd_por_kg": 6.0
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Países Baixos",
+      "usd_por_kg": 11.4286
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Portugal",
+      "usd_por_kg": 3.6595
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Reino Unido",
+      "usd_por_kg": 21.3093
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Romênia",
+      "usd_por_kg": 5.8076
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Ucrânia",
+      "usd_por_kg": 1.4334
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Uruguai",
+      "usd_por_kg": 4.5057
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "espumante",
+      "pais": "Áustria",
+      "usd_por_kg": 6.2741
     },
     {
       "ano": 1970,
@@ -59582,6 +62325,300 @@
       "produto": "mesa",
       "pais": "Áustria",
       "usd_por_kg": 5.8982
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Africa do Sul",
+      "usd_por_kg": 3.2233
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Alemanha",
+      "usd_por_kg": 5.0141
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Argentina",
+      "usd_por_kg": 3.5974
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Armênia",
+      "usd_por_kg": 1.4824
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Arábia Saudita",
+      "usd_por_kg": 5.0
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Austrália",
+      "usd_por_kg": 4.4616
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Azerbaijão",
+      "usd_por_kg": 1.4703
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Bolívia",
+      "usd_por_kg": 6.2051
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Brasil",
+      "usd_por_kg": 1.888
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Bulgária",
+      "usd_por_kg": 1.6825
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Bósnia-Herzegovina",
+      "usd_por_kg": 5.4227
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Canada",
+      "usd_por_kg": 61.308
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Chile",
+      "usd_por_kg": 2.7098
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Chipre",
+      "usd_por_kg": 4.6889
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Croácia",
+      "usd_por_kg": 6.5854
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Eslovênia",
+      "usd_por_kg": 5.0788
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Espanha",
+      "usd_por_kg": 3.2542
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Estados Unidos",
+      "usd_por_kg": 8.5034
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "França",
+      "usd_por_kg": 7.2041
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Geórgia",
+      "usd_por_kg": 1.9119
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Geórgia do Sul e Sandwich do Sul, Ilhas",
+      "usd_por_kg": 1.7871
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Grécia",
+      "usd_por_kg": 4.3519
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Hungria",
+      "usd_por_kg": 8.3683
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Israel",
+      "usd_por_kg": 6.7633
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Itália",
+      "usd_por_kg": 4.6693
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Japão",
+      "usd_por_kg": 4.2943
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Luxemburgo",
+      "usd_por_kg": 13.5556
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Líbano",
+      "usd_por_kg": 5.8331
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Macedônia",
+      "usd_por_kg": 1.6727
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Marrocos",
+      "usd_por_kg": 11.6286
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Moldávia",
+      "usd_por_kg": 2.0025
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "México",
+      "usd_por_kg": 7.25
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Nova Zelândia",
+      "usd_por_kg": 4.6633
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Países Baixos (Holanda)",
+      "usd_por_kg": 7.5274
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Portugal",
+      "usd_por_kg": 3.0477
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Reino Unido",
+      "usd_por_kg": 16.7153
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Romênia",
+      "usd_por_kg": 3.3197
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Sérvia",
+      "usd_por_kg": 3.2978
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Síria",
+      "usd_por_kg": 1.9805
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Ucrânia",
+      "usd_por_kg": 1.5327
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Uruguai",
+      "usd_por_kg": 3.3686
+    },
+    {
+      "ano": 2025,
+      "fluxo": "importacao",
+      "produto": "mesa",
+      "pais": "Áustria",
+      "usd_por_kg": 5.9044
     }
   ]
 }

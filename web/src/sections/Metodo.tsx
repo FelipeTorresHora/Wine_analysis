@@ -69,7 +69,7 @@ function Texto({ meta }: { meta: Meta }) {
       </p>
       <p>
         Na produção entram apenas os totais de família: vinho de mesa, vinho fino, suco e a soma
-        dos espumantes. Esse total não se mistura com as subcategorias. Em {meta.fim}, o ponto de
+        dos espumantes. Esse total não se mistura com as subcategorias. Em 2024, o ponto de
         milhar foi lido como separador.
       </p>
       <p>

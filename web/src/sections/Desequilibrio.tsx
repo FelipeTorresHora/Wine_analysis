@@ -3,7 +3,7 @@ import type { Comercio } from '../types/atlas'
 import { SectionFrame } from './SectionFrame'
 import { sectionById } from './manifest'
 
-const ANO = 2024
+const ANO = 2025
 const PRODUTO = 'mesa'
 
 type Load =
@@ -232,7 +232,7 @@ export function Desequilibrio() {
   if (status.state === 'loading') {
     return (
       <SectionFrame meta={meta}>
-        <p role="status">Carregando os números de 2024.</p>
+        <p role="status">Carregando os números de {ANO}.</p>
       </SectionFrame>
     )
   }
@@ -240,7 +240,7 @@ export function Desequilibrio() {
   if (status.state === 'error') {
     return (
       <SectionFrame meta={meta}>
-        <p role="alert">Não foi possível ler o comércio de 2024.</p>
+        <p role="alert">Não foi possível ler o comércio de {ANO}.</p>
       </SectionFrame>
     )
   }
@@ -250,13 +250,13 @@ export function Desequilibrio() {
   if (importados <= 0 || exportados <= 0) {
     return (
       <SectionFrame meta={meta}>
-        <p role="alert">Não foi possível ler o comércio de 2024.</p>
+        <p role="alert">Não foi possível ler o comércio de {ANO}.</p>
       </SectionFrame>
     )
   }
 
   const fator = Math.round(importados / exportados)
-  const texto = `Em 2024 o Brasil importou cerca de ${formatInteiro(fator)} vezes mais vinho de mesa do que exportou.`
+  const texto = `Em ${ANO} o Brasil importou cerca de ${formatInteiro(fator)} vezes mais vinho de mesa do que exportou.`
 
   return (
     <SectionFrame meta={meta}>
@@ -267,16 +267,16 @@ export function Desequilibrio() {
           <p className="bal-figure">
             {formatMilhoes(importados)} <span className="bal-unit">de kg</span>
           </p>
-          <span className="bal-caption">importados em 2024</span>
+          <span className="bal-caption">importados em {ANO}</span>
         </div>
         <div>
           <p className="bal-figure">
             {formatMilhoes(exportados)} <span className="bal-unit">de kg</span>
           </p>
-          <span className="bal-caption">exportados em 2024</span>
+          <span className="bal-caption">exportados em {ANO}</span>
         </div>
       </div>
-      <h3 className="bal-chart-title">Vinho de mesa em 2024</h3>
+      <h3 className="bal-chart-title">Vinho de mesa em {ANO}</h3>
       <Barras
         items={[
           { id: 'importacao', nome: 'Importação', kg: importados, cor: 'var(--accent)' },

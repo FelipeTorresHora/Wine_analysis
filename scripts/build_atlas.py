@@ -216,23 +216,25 @@ def _litros(producao: list[dict], familia: str, ano: int) -> int:
 
 
 def montar_destaques(comercio: list[dict], producao: list[dict]) -> list[dict]:
-    mesa_2024 = [
+    ano_inicial = min(registro["ano"] for registro in producao)
+    ano_final = max(registro["ano"] for registro in producao)
+    mesa_final = [
         registro
         for registro in comercio
-        if registro["ano"] == 2024 and registro["produto"] == "mesa"
+        if registro["ano"] == ano_final and registro["produto"] == "mesa"
     ]
-    importados = [registro for registro in mesa_2024 if registro["fluxo"] == "importacao"]
-    exportados = [registro for registro in mesa_2024 if registro["fluxo"] == "exportacao"]
+    importados = [registro for registro in mesa_final if registro["fluxo"] == "importacao"]
+    exportados = [registro for registro in mesa_final if registro["fluxo"] == "exportacao"]
     kg_importado = sum(registro["kg"] for registro in importados)
     usd_importado = sum(registro["usd"] for registro in importados)
     kg_exportado = sum(registro["kg"] for registro in exportados)
     usd_exportado = sum(registro["usd"] for registro in exportados)
     chile = next(registro for registro in importados if registro["pais"] == "Chile")
     if kg_importado <= 0 or kg_exportado <= 0:
-        raise ValueError("Comércio de vinho de mesa em 2024 sem quantidade.")
+        raise ValueError(f"Comércio de vinho de mesa em {ano_final} sem quantidade.")
 
-    litros_1970 = _litros(producao, "VINHO DE MESA", 1970)
-    litros_2024 = _litros(producao, "VINHO DE MESA", 2024)
+    litros_inicial = _litros(producao, "VINHO DE MESA", ano_inicial)
+    litros_final = _litros(producao, "VINHO DE MESA", ano_final)
     preco_exportado = usd_exportado / kg_exportado
     preco_importado = usd_importado / kg_importado
     participacao = chile["kg"] / kg_importado
@@ -241,8 +243,8 @@ def montar_destaques(comercio: list[dict], producao: list[dict]) -> list[dict]:
         {
             "id": "chile",
             "valor": _formato_percentual(participacao),
-            "frase": "do vinho de mesa importado em 2024 veio do Chile.",
-            "ano": 2024,
+            "frase": f"do vinho de mesa importado em {ano_final} veio do Chile.",
+            "ano": ano_final,
             "kg": chile["kg"],
             "kg_total": kg_importado,
             "participacao": round(participacao, 4),
@@ -254,20 +256,21 @@ def montar_destaques(comercio: list[dict], producao: list[dict]) -> list[dict]:
                 "o quilo que o Brasil vendeu, contra "
                 f"{_formato_usd(preco_importado)} o quilo que comprou."
             ),
-            "ano": 2024,
+            "ano": ano_final,
             "exportado_usd_por_kg": round(preco_exportado, 4),
             "importado_usd_por_kg": round(preco_importado, 4),
         },
         {
             "id": "mesa",
-            "valor": _formato_percentual((litros_2024 - litros_1970) / litros_1970),
+            "valor": _formato_percentual((litros_final - litros_inicial) / litros_inicial),
             "frase": (
-                "a produção de vinho de mesa desde 1970, "
+                f"a produção de vinho de mesa desde {ano_inicial}, "
                 "enquanto o suco de uva multiplicou."
             ),
-            "litros_1970": litros_1970,
-            "litros_2024": litros_2024,
-            "variacao": round((litros_2024 - litros_1970) / litros_1970, 4),
+            "ano": ano_final,
+            f"litros_{ano_inicial}": litros_inicial,
+            f"litros_{ano_final}": litros_final,
+            "variacao": round((litros_final - litros_inicial) / litros_inicial, 4),
         },
     ]
 

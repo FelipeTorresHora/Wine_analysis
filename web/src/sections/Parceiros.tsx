@@ -3,7 +3,7 @@ import type { Comercio, Fluxo, Produto } from '../types/atlas'
 import { SectionFrame } from './SectionFrame'
 import { sectionById } from './manifest'
 
-const ANO = 2024
+const ANO = 2025
 const TOPO = 8
 const WAFFLE = 100
 
@@ -396,7 +396,7 @@ function Waffle({ paraguai, total }: { paraguai: number; total: number }) {
         </div>
         <div className="pc-pct-wrap">
           <p className="pc-pct">{percent}%</p>
-          <span className="pc-pct-note">do vinho de mesa exportado em 2024.</span>
+          <span className="pc-pct-note">do vinho de mesa exportado em {ANO}.</span>
         </div>
       </div>
       <ul className="pc-legend">
@@ -425,9 +425,9 @@ export function Parceiros() {
   return (
     <SectionFrame meta={meta}>
       <style>{styles}</style>
-      <p>O país líder da série escolhida fica em verde. Ao lado, a fatia do Paraguai nas exportações de vinho de mesa em 2024.</p>
-      {status.state === 'loading' ? <p role="status">Carregando os parceiros de 2024.</p> : null}
-      {status.state === 'error' ? <p role="alert">Não foi possível ler o comércio de 2024.</p> : null}
+      <p>O país líder da série escolhida fica em verde. Ao lado, a fatia do Paraguai nas exportações de vinho de mesa em {ANO}.</p>
+      {status.state === 'loading' ? <p role="status">Carregando os parceiros de {ANO}.</p> : null}
+      {status.state === 'error' ? <p role="alert">Não foi possível ler o comércio de {ANO}.</p> : null}
       {status.state === 'ready' ? (
         <Conteudo comercio={status.comercio} fluxo={fluxo} produto={produto} onFluxo={setFluxo} onProduto={setProduto} />
       ) : null}
@@ -479,7 +479,7 @@ function Conteudo({
             {nomeFluxo(fluxo)} de {nomeProduto(produto)}, {ANO}
           </h3>
           {serie.total > serie.linhas.length ? <p className="pc-rank-note">Oito maiores parceiros, em kg.</p> : null}
-          {serie.linhas.length === 0 ? <p>Sem quantidade registrada em 2024 para esta série.</p> : <Barras linhas={serie.linhas} />}
+          {serie.linhas.length === 0 ? <p>Sem quantidade registrada em {ANO} para esta série.</p> : <Barras linhas={serie.linhas} />}
         </div>
         {fatia ? <Waffle paraguai={fatia.paraguai} total={fatia.total} /> : <p role="alert">Não foi possível ler a fatia do Paraguai.</p>}
       </div>

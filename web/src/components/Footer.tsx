@@ -35,7 +35,7 @@ export function Footer() {
         <div className="footer-col">
           <p className="footer-label">O atlas</p>
           <p className="footer-mark">Atlas do vinho</p>
-          <p className="footer-note">O que o Brasil bebe, vende e produz, de 1970 a 2024.</p>
+          <p className="footer-note">O que o Brasil bebe, vende e produz, de 1970 a 2025.</p>
         </div>
         <nav className="footer-col" aria-label="Seções">
           <p className="footer-label">Seções</p>

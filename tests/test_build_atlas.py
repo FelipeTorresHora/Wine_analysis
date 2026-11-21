@@ -64,34 +64,61 @@ class TestNumerosDeConferencia(unittest.TestCase):
         usd = sum(registro["usd"] for registro in registros)
         paraguai = next(registro for registro in registros if registro["pais"] == "Paraguai")
         self.assertEqual(kg, 5_324_465)
-        self.assertEqual(usd, 8_751_275)
+        self.assertEqual(usd, 8_751_295)
         self.assertEqual(paraguai["kg"], 3_705_268)
 
-    def test_preco_medio_mesa_2024(self) -> None:
-        importados = _mesa(self.atlas, "importacao")
-        exportados = _mesa(self.atlas, "exportacao")
+    def test_preco_medio_mesa_2024_e_2025(self) -> None:
+        importados_24 = _mesa(self.atlas, "importacao", 2024)
+        exportados_24 = _mesa(self.atlas, "exportacao", 2024)
+        self.assertEqual(
+            round(sum(r["usd"] for r in importados_24) / sum(r["kg"] for r in importados_24), 2),
+            3.14,
+        )
+        self.assertEqual(
+            round(sum(r["usd"] for r in exportados_24) / sum(r["kg"] for r in exportados_24), 2),
+            1.64,
+        )
+        importados = _mesa(self.atlas, "importacao", 2025)
+        exportados = _mesa(self.atlas, "exportacao", 2025)
         preco_importado = sum(r["usd"] for r in importados) / sum(r["kg"] for r in importados)
         preco_exportado = sum(r["usd"] for r in exportados) / sum(r["kg"] for r in exportados)
-        self.assertEqual(round(preco_importado, 2), 3.14)
-        self.assertEqual(round(preco_exportado, 2), 1.64)
+        self.assertEqual(round(preco_importado, 2), 3.25)
+        self.assertEqual(round(preco_exportado, 2), 1.66)
         destaque = next(item for item in self.atlas["destaques"] if item["id"] == "preco")
-        self.assertEqual(destaque["valor"], "US$ 1,64")
-        self.assertIn("US$ 3,14", destaque["frase"])
+        self.assertEqual(destaque["valor"], "US$ 1,66")
+        self.assertIn("US$ 3,25", destaque["frase"])
         self.assertAlmostEqual(destaque["importado_usd_por_kg"], preco_importado, places=4)
         self.assertAlmostEqual(destaque["exportado_usd_por_kg"], preco_exportado, places=4)
 
-    def test_litros_vinho_de_mesa_1970_e_2024(self) -> None:
+    def test_importacao_e_exportacao_mesa_2025(self) -> None:
+        importados = _mesa(self.atlas, "importacao", 2025)
+        self.assertEqual(sum(r["kg"] for r in importados), 158_532_688)
+        self.assertEqual(sum(r["usd"] for r in importados), 514_800_680)
+        chile = next(r for r in importados if r["pais"] == "Chile")
+        self.assertEqual(chile["kg"], 77_996_609)
+        self.assertEqual(round(chile["kg"] / sum(r["kg"] for r in importados) * 100), 49)
+
+        exportados = _mesa(self.atlas, "exportacao", 2025)
+        self.assertEqual(sum(r["kg"] for r in exportados), 6_540_975)
+        self.assertEqual(sum(r["usd"] for r in exportados), 10_846_438)
+        paraguai = next(r for r in exportados if r["pais"] == "Paraguai")
+        self.assertEqual(paraguai["kg"], 4_550_344)
+
+    def test_litros_vinho_de_mesa_1970_2024_e_2025(self) -> None:
         self.assertEqual(_litros(self.atlas, "VINHO DE MESA", 1970), 217_208_604)
         self.assertEqual(_litros(self.atlas, "VINHO DE MESA", 2024), 102_631_280)
+        self.assertEqual(_litros(self.atlas, "VINHO DE MESA", 2025), 187_156_862)
         self.assertNotEqual(_litros(self.atlas, "VINHO DE MESA", 1970), 217_208_604 * 2)
         destaque = next(item for item in self.atlas["destaques"] if item["id"] == "mesa")
         self.assertEqual(destaque["litros_1970"], 217_208_604)
-        self.assertEqual(destaque["litros_2024"], 102_631_280)
-        self.assertEqual(destaque["valor"], "\u221253%")
+        self.assertEqual(destaque["litros_2025"], 187_156_862)
+        self.assertEqual(destaque["valor"], "\u221214%")
 
-    def test_ponto_de_milhar_em_2024_nas_outras_familias(self) -> None:
+    def test_ponto_de_milhar_em_2024_e_totais_2025_nas_outras_familias(self) -> None:
         self.assertEqual(_litros(self.atlas, "VINHO FINO DE MESA (VINIFERA)", 2024), 22_545_581)
         self.assertEqual(_litros(self.atlas, "SUCO", 2024), 82_884_967)
+        self.assertEqual(_litros(self.atlas, "VINHO FINO DE MESA (VINIFERA)", 2025), 43_562_468)
+        self.assertEqual(_litros(self.atlas, "SUCO", 2025), 89_355_889)
 
 
 class TestContrato(unittest.TestCase):
@@ -107,7 +134,7 @@ class TestContrato(unittest.TestCase):
         self.assertEqual(set(self.atlas["meta"]), {"fonte", "anos", "unidades"})
         self.assertEqual(self.atlas["meta"]["fonte"], "Embrapa Uva e Vinho")
         self.assertEqual(self.atlas["meta"]["anos"][0], 1970)
-        self.assertEqual(self.atlas["meta"]["anos"][-1], 2024)
+        self.assertEqual(self.atlas["meta"]["anos"][-1], 2025)
         self.assertEqual(self.atlas["meta"]["unidades"]["preco"], "US$/kg")
         self.assertEqual(len(self.atlas["destaques"]), 3)
 
@@ -156,7 +183,7 @@ class TestContrato(unittest.TestCase):
                 "ESPUMANTE",
             },
         )
-        self.assertEqual(len(self.atlas["producao"]), 55 * 4)
+        self.assertEqual(len(self.atlas["producao"]), 56 * 4)
         texto = json.dumps(self.atlas, ensure_ascii=False)
         self.assertNotIn("vm_Tinto", texto)
         self.assertNotIn("de_Espumante", texto)
@@ -165,12 +192,14 @@ class TestContrato(unittest.TestCase):
         # + Champenoise 914.741 + Charmat 3.252.935 + orgânico 140.
         self.assertEqual(_litros(self.atlas, "ESPUMANTE", 1970), 0)
         self.assertEqual(_litros(self.atlas, "ESPUMANTE", 2024), 10_598_208)
+        self.assertEqual(_litros(self.atlas, "ESPUMANTE", 2025), 692_398)
 
     def test_comercio_csv_abre_e_nao_entra(self) -> None:
         aberto = build_atlas.abrir_comercio_csv(DADOS / "Comercio.csv")
         self.assertIn("Produto", aberto["colunas"])
         self.assertIn("1970", aberto["colunas"])
-        self.assertNotIn("2024", aberto["colunas"])
+        self.assertIn("2024", aberto["colunas"])
+        self.assertNotIn("2025", aberto["colunas"])
         self.assertGreater(len(aberto["colunas"]), 10)
         self.assertGreater(aberto["linhas"], 0)
         litros = {registro["litros"] for registro in self.atlas["producao"]}

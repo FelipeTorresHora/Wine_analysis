@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section className="hero" id="topo" aria-labelledby="hero-titulo">
       <div className="hero-inner">
-        <p className="hero-kicker">1970–2024</p>
+        <p className="hero-kicker">1970–2025</p>
         <h1 id="hero-titulo" className="hero-title">
           O vinho que o Brasil bebe
         </h1>
